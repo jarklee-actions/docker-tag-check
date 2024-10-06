@@ -1,0 +1,17 @@
+name: docker-tag-check
+description: Check for docker tag existence
+
+inputs:
+  image:
+    description: Docker image to check
+    required: true
+  tag:
+    description: Docker tag for image, default is latest
+    required: false
+    default: latest
+outputs:
+  is_exist:
+    description: "true if image tag exists"
+runs:
+  using: node20
+  main: index.js

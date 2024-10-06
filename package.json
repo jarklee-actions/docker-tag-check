@@ -1,0 +1,19 @@
+{
+  "name": "docker-tag-check",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarklee-actions/docker-tag-check.git"
+  },
+  "author": "Jarklee",
+  "license": "MIT",
+  "description": "Check for docker tag existence",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/exec": "^1.1.1"
+  }
+}
